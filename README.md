@@ -4,6 +4,7 @@
 
 ### slightly_older_baby_coder <- skills_coming_along(git, sql, r, python (2022_me_v1.1))
 
+# 
 
 ### some more about me ...
 
@@ -13,7 +14,7 @@
 
 * 📫 Find me and my personal vizzes (Tableau Public), case studies (RPubs, Kaggle), data community presence (stackoverflow) ...
 
-Twitter: @josefoviedo_
+Twitter: https://twitter.com/josefoviedo_
 
 LinkedIn: https://www.linkedin.com/in/jose-oviedo-461278192/
 
