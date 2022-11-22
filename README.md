@@ -14,7 +14,7 @@
 
 * 📫 Find me and my personal vizzes (Tableau Public), case studies (RPubs, Kaggle), data community presence (stackoverflow) ...
 
-Twitter: https://twitter.com/josefoviedo&#95;
+Twitter: `https://twitter.com/josefoviedo_`
 
 LinkedIn: https://www.linkedin.com/in/jose-oviedo-461278192/
 
