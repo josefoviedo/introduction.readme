@@ -13,7 +13,8 @@ slightly_older_baby_coder <- skills_coming_along(git, sql, r, python (2022_me_v1
 - 💞️ I’m looking to collaborate on ... data competitions, data scrubbing, code reviews, data modeling, ai/ml, data vizzes
 
 
-- 📫 How to find me and my personal vizzes (Tableau Public), case studies (RPubs), and data community presence (Kaggle, stackoverflow)  ... 
+- 📫 Find me and my personal vizzes (Tableau Public), case studies (RPubs, Kaggle), data community presence (stackoverflow)...
+
 
 Twitter: @josefoviedo_
 
