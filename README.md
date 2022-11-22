@@ -14,13 +14,14 @@
 
 * 📫 Find me and my personal vizzes (Tableau Public), case studies (RPubs, Kaggle), data community presence (stackoverflow) ...
 
-Twitter: [@jfoviedo_](https://twitter.com/josefoviedo_) 
 
 LinkedIn: https://www.linkedin.com/in/jose-oviedo-461278192/
 
 Tableau Public: https://public.tableau.com/app/profile/josefoviedo
 
 RPubs: https://rpubs.com/joseoviedo
+
+Twitter: [@jfoviedo_](https://twitter.com/josefoviedo_)
 
 Google Dev: https://g.dev/jfoviedo
 
