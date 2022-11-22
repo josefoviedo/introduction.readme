@@ -4,7 +4,8 @@
 
 ### slightly_older_baby_coder <- skills_coming_along(git, sql, r, python (2022_me_v1.1))
 
-## some more about me ...
+
+### some more about me ...
 
 * 🌱 I’m currently learning ... how to best learn with my unique learning style and get over imposter syndrome. 
 
