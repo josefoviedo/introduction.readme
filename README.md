@@ -1,7 +1,5 @@
 # 👋 Hi, I’m *@josefoviedo*
 
-#
-
 ### baby_coder <- LEARNING to CODE (2021_me_v1.0)
 
 ### slightly_older_baby_coder <- skills_coming_along(git, sql, r, python (2022_me_v1.1))
