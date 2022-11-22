@@ -19,10 +19,12 @@ Twitter: @josefoviedo_
 
 LinkedIn: https://www.linkedin.com/in/jose-oviedo-461278192/
 
-Tableau Public Profile: https://public.tableau.com/app/profile/josefoviedo
+Tableau Public: https://public.tableau.com/app/profile/josefoviedo
 
-RPubs Profile: https://rpubs.com/joseoviedo
+RPubs: https://rpubs.com/joseoviedo
 
-Google Dev Profile: https://g.dev/jfoviedo
+Google Dev: https://g.dev/jfoviedo
 
-Kaggle Profile:
+Kaggle: https://www.kaggle.com/josefoviedo
+
+stackoverflow: https://stackoverflow.com/users/19770925/jose-oviedo?tab=profile
