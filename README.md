@@ -14,7 +14,7 @@
 
 * 🌱 I’m currently learning ... how to best learn with my unique learning style and get over imposter syndrome. 
 
-* 💞️ I’m looking to collaborate/sounding board on ... analysis preparation, data governance, data pipelines, data collection, data vizzes, case study competitions, real-world business tasks using simulated data (fakeR, charlatan, bindata, etc.), Rmd/md code reviews, ai/ml modeling
+* 💞️ I’m looking to collaborate/sounding board on ... analysis preparation, data governance, data pipelines, data collection, data vizzes, case study competitions, tackling real-world business tasks using simulated data (fakeR, charlatan, bindata, etc.), Rmd/md code reviews, ai/ml modeling
 
 #
 
