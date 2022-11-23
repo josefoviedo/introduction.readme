@@ -1,6 +1,6 @@
 # 👋 Hi, I’m *@josefoviedo*
 
-#### 💻 *aspiring data analyst and penultimate cloud platform architect*
+#### 💻 *aspiring technical data analyst and penultimate cloud platform architect*
 
 #
 
