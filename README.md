@@ -1,6 +1,8 @@
 # 👋 Hi, I’m *@josefoviedo*
 
-### 💻 aspiring data analyst and penultimate cloud platform architect
+#### 💻 *aspiring data analyst and penultimate cloud platform architect*
+
+#
 
 #### baby_coder <- LEARNING to CODE (2021_me_v1.0)
 
