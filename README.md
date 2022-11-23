@@ -1,6 +1,6 @@
 # 👋 Hi, I’m *@josefoviedo*
 
-#### 💻 *aspiring technical data analyst and penultimate cloud platform architect*
+### 💻 *aspiring technical data analyst and penultimate cloud platform architect*
 
 #
 
@@ -18,7 +18,7 @@
 
 #
 
-### 👀🔎 Find me (LinkedIn, Personal Website), my personal vizzes (Tableau Public), case study projects in Rmd/md/html_document formats (RPubs, Kaggle), and online data community presence (Twitter, stackoverflow, Google Dev) ... 
+#### 👀🔎 Find me (LinkedIn, Personal Website), my personal vizzes (Tableau Public), case study projects in Rmd/md/html_document formats (RPubs, Kaggle), and online data community presence (Twitter, stackoverflow, Google Dev) ... 
 
 
 * LinkedIn: https://www.linkedin.com/in/jose-oviedo-461278192/
