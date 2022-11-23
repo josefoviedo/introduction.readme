@@ -4,7 +4,7 @@
 
 #
 
-#### baby_coder <- LEARNING to CODE (2021_me_v1.0)
+#### baby_coder <- foundational learning to maybe code ? (2021_me_v1.0)
 
 #### slightly_older_baby_coder <- skills_coming_along(git, sql, tableau, r, python, md (2022_me_v1.1))
 
