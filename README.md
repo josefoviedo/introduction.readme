@@ -33,6 +33,6 @@
 
 * [Twitter: @jfoviedo_](https://twitter.com/josefoviedo_)
 
-* [stackoverflow_profile:](https://stackoverflow.com/users/19770925/jose-oviedo?tab=profile)
+* [stackoverflow_Profile:](https://stackoverflow.com/users/19770925/jose-oviedo?tab=profile)
 
-* [GoogleDev_profile:](https://g.dev/jfoviedo)
+* [GoogleDev_Profile:](https://g.dev/jfoviedo)
