@@ -21,18 +21,18 @@
 #### 👀🔎 Find me (LinkedIn, Personal Website), my personal vizzes (Tableau Public), case study projects in Rmd/md/html_document formats (RPubs, Kaggle), and online data community presence (Twitter, stackoverflow, Google Dev) ... 
 
 
-* LinkedIn: https://www.linkedin.com/in/jose-oviedo-461278192/
+* [LinkedIn:](https://www.linkedin.com/in/jose-oviedo-461278192/)
 
-* Personal Website: https://josefoviedo.blogspot.com/
+* [Personal Website:](https://josefoviedo.blogspot.com/)
 
-* Tableau Public: https://public.tableau.com/app/profile/josefoviedo
+* [Tableau_Portfolio:](https://public.tableau.com/app/profile/josefoviedo)
 
-* RPubs: https://rpubs.com/joseoviedo
+* [RPubs_Portfolio:](https://rpubs.com/joseoviedo)
 
-* Kaggle: https://www.kaggle.com/josefoviedo
+* [Kaggle_Portfolio:](https://www.kaggle.com/josefoviedo)
 
-* Twitter: [@jfoviedo_](https://twitter.com/josefoviedo_)
+* [Twitter: @jfoviedo_](https://twitter.com/josefoviedo_)
 
-* stackoverflow: https://stackoverflow.com/users/19770925/jose-oviedo?tab=profile
+* [stackoverflow_profile:](https://stackoverflow.com/users/19770925/jose-oviedo?tab=profile)
 
-* Google Dev: https://g.dev/jfoviedo
+* [GoogleDev_profile:](https://g.dev/jfoviedo)
