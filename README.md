@@ -12,7 +12,7 @@
 
 ### some more about me ...
 
-* 🌱 I’m currently learning ... how to best learn with my unique learning style and get over imposter syndrome. 
+* 🌱 I’m currently learning ... how to best learn with my unique learning style and get over impostor syndrome. 
 
 * 💞️ I’m looking to collaborate/sounding board on ... analysis preparation, data governance, data structures, data pipelines, data collection, data vizzes, case study/eda competitions, tackling real-world business tasks using simulated data (fakeR, charlatan, bindata, etc.), Rmd/md code reviews, ai/ml data modeling
 
