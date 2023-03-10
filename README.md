@@ -1,12 +1,6 @@
----
-title: "Hi, I’m *@josefoviedo*"
-author: "💻 Aspiring technical data analyst and data viz enthusiast..."
-date: "`r Sys.Date()`"
-output:
-  prettydoc::html_pretty:
-    theme: architect
-    highlight: github
----
+Hi, I’m *@josefoviedo*
+
+💻 Aspiring technical data analyst and data viz enthusiast
 
 ## A little about me...
 
