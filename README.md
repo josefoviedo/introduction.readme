@@ -1,6 +1,6 @@
 # 👋 Hi, I’m *@josefoviedo*
 
-### 💻 *aspiring technical data analyst and data viz connoisseur...
+### 💻 *aspiring technical data analyst and data viz enthusiast...
 
 #
 
