@@ -1,14 +1,11 @@
 # 👋 Hi, I’m *@josefoviedo*
 
-### 💻 *aspiring technical data analyst and data viz enthusiast...
+> 💻 *aspiring technical data analyst and data viz enthusiast...
 
-#
 
-#### baby_coder <- foundational-learning-to-maybe-code-?(2021_me_v1.0)
+### baby_coder <- foundational-learning-to-maybe-code-?(2021_me_v1.0)
 
-#### slightly_older_baby_coder <- skills_coming_along(git, sql, tableau, r, python, md (2023_me_v1.1))
-
-# 
+### slightly_older_baby_coder <- skills_coming_along(git, sql, tableau, r, python, md (2023_me_v1.1)) 
 
 ### some more about me ...
 
@@ -16,9 +13,7 @@
 
 * 💞️ I’m looking to collaborate or be a sounding board on ... analysis preparation, data governance, data structures, data pipelines, data collection, data vizzes, case study/eda competitions, tackling real-world business tasks using simulated data (fakeR, charlatan, bindata, etc.), Rmd/md code reviews, ai/ml data modeling
 
-#
-
-#### 👀🔎 Find me (LinkedIn, Personal Website), my personal vizzes (Tableau Public), case study projects in Rmd/md/html_document formats (RPubs, Kaggle), and online data community presence (Twitter, stackoverflow, Google Dev) ... 
+> 👀🔎 Find me (LinkedIn, Personal Website), my personal vizzes (Tableau Public), case study projects in Rmd/md/html_document formats (RPubs, Kaggle), and online data community presence (Twitter, stackoverflow, Google Dev) ... 
 
 
 * [LinkedIn: click here](https://www.linkedin.com/in/jose-oviedo-461278192/)
