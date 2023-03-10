@@ -1,0 +1,128 @@
+---
+title: "groupby, summarize, dropna, and mutate functions code-included tutorial"
+subtitle: "tidyverse, forcats, knitr and other packages used to make this"
+author: "Write up by Jose F Oviedo using YouTube channel, R Programming 101, linked below."
+date: "03/09/2023"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+## Credit this portion to **R Programming 101 YouTube Channel**
+
+#### Link To YouTube Video: [R Programming 101: groupby, summarize, dropna ](https://www.youtube.com/watch?v=XoApM8QrPl8)
+
+*   I am translating the original tutorial by "R Programming 101" YouTube channel to written form for practice and maybe as a nice visual guide for someone who sees it in the Repo along with some bonus skills test at the end.
+
+```{r setup, message=FALSE, echo=TRUE}
+## set up environment
+
+library(tidyverse)
+library(forcats)
+library(knitr)
+```
+
+```{r data set preparation}
+## inspect the data set
+
+data()
+view(msleep)
+names(msleep)
+```
+
+```{r groupby-summarize-practice}
+## avg total sleep and max rem sleep based on diet
+
+msleep |>
+  drop_na(sleep_rem, vore) |>
+  group_by(vore) |>
+  summarize('Avg Total Sleep' = mean(sleep_total),
+            'Max REM Sleep' = max(sleep_rem)) |>
+  view()
+```
+
+
+
+## PRACTICE ON YOUR OWN NOW:
+
+*   I am going to play around with the star wars data set. There are plenty on here to explore using the data function to view them, so look for something unique and dont be basic like me.
+
+```{r starwars-ds-tidyverse-practice, message=TRUE, warning=FALSE}
+## inspect the data set, data types, structures, etc.
+
+data("starwars")
+view(starwars)
+names(starwars)
+```
+
+``` {r select-variables}
+## select variables to work with
+
+sw <- starwars |>
+  select(name, height, mass, homeworld, gender) |>
+  view()
+```
+
+``` {r convert-to-usa-units-sw-ds}
+## created new variables to convert data in familiar measurement units
+
+sw_usaconversion <- sw |>
+  mutate("heightft"  = ((height / 2.54) / 12),
+         "masslbs" = (mass * 2.2)) |>
+  view()
+```
+
+```{r sw-dropna-groupby-summarize}
+## data.frame() is deprecated so use it at your own risk use tibble()
+
+## averages df using summarize
+
+sw_averages <- sw_usaconversion |>
+  drop_na(name, height, heightft, mass, masslbs, gender, homeworld) |>
+  group_by(homeworld) |>
+  summarize('AvgTotalHeight (cm)' = mean(height),
+            'AverageTotalHeight (ft)' = mean(heightft),
+            'AvgTotalMass (kg)' = mean(mass),
+            'AverTotalMass (lbs)' = mean(masslbs)) |>
+  view()
+```
+
+## Now, lets do some rapid vizualizations just for fun:
+
+```{r rapid-vizzes-hist-masslbs}
+
+hist(sw_usaconversion$masslbs,
+     col = "brown",
+     main = "Total Group Mass(lbs) Observations ",
+     xlab = "MASS IN POUNDS (lbs)")
+```
+
+*   Because there is an outlier, Jabba the Hut, this plot isnt very useful, use the log function to "zoom" in on the most frequent observations in the distribution. 
+
+```{r rapid-vizzes-hist-log-masslbs}
+
+hist(log(sw_usaconversion$masslbs),
+     col = "purple",
+     main = "Most Frequent Mass (lbs) Observations ",
+     xlab = "MASS IN POUNDS (x10)")
+```
+
+*   We can see that most of the characters in this snapshot of the starwars universe have likely mass(lbs) in the 40 to 60 lbs range. Which makes sense because a lot of these characters are pretty small and cute and not intimidating at all.
+
+
+*   Now, we will do the same for the height-related variable in our desired unit of measurement, for this example I chose foot units.
+
+```{r rapid-vizzes-hist-heightft}
+
+hist(sw_usaconversion$heightft,
+     col = "lightblue",
+     main = "Total Group Height (foot) Observations ",
+     xlab = "HEIGHT IN FOOT (ft)")
+```
+
+### Conclusions about the starwars universe and character attributes:
+
+*   Comparing the histograms of 'masslbs' and 'heightft' variables, we can see that the majority of starwars characters are likely to be in the 40 lbs to 60 lbs range and in the 5 ft to 7 ft height range. 
+
+*   I made an assumption earlier that based on the most frequent mass(lbs) observations most characters in starwars are small and cute but the histogram of the frequent height(inches or foot) would say otherwise. I was right about the characters being unintimidating at that weight range but it looks like they are taller than I imagined.
