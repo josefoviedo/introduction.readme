@@ -1,8 +1,8 @@
-💻 This repository named 'josefoviedo.github.io' is the main source for all the code and files I want to be public regarding my data analytics portfolio. It includes things like this README file which is sort of my repository landing page with links to view my personal website, data analysis projects, social media, etc.
+***This repository named 'josefoviedo.github.io' is the main source for all the code and files I want to be public regarding my own personal data analytics portfolio, where I only use open data for my projects and never any private data. It includes things like this README file which is sort of my repository landing page with links to view my personal website, data analysis projects, social media, etc.***
 
-## Hi, I’m *@josefoviedo*
+# Hi, I’m *@josefoviedo*
 
-#### Aspiring technical data analyst and data viz enthusiast
+### 💻  Aspiring technical data analyst and data viz enthusiast
 
 ## A little about me...
 
