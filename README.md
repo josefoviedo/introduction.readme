@@ -1,12 +1,3 @@
----
-title: "Hi, I’m *@josefoviedo*"
-author: "💻 Aspiring technical data analyst and data viz enthusiast..."
-output:
-  prettydoc::html_pretty:
-    theme: architect
-    highlight: github
----
-
 ## A little about me...
 
 **baby_coder <- foundational-learning-to-maybe-code-?(2021_me_v1.0)**
