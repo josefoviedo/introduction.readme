@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/973405/64431133d4e345d0a19fb487500c7736
+bundleId: https://api.rpubs.com/api/v1/document/973405/64431133d4e345d0a19fb487500c7736
+url: http://rpubs.com/joseoviedo/973405
+when: 1669049875.60394
+lastSyncTime: 1669049875.60395
