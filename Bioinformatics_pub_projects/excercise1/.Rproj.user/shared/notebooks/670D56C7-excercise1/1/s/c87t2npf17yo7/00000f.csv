@@ -1,0 +1,43 @@
+"0",""
+"0","library(readxl)"
+"0","SY_read_counts <- read_excel(""SY_read_counts.xlsx"")"
+"0",""
+"0","View(SY_read_counts)"
+"0",""
+"0","library(readxl)"
+"0","SY_DE_As25_vs_Ctrl_Readcounts <- read_excel(""SY_DE_As25_vs_Ctrl_Readcounts.xlsx"")"
+"2","New names:"
+"0","View(SY_DE_As25_vs_Ctrl_Readcounts)"
+"0",""
+"0","GO_term_summary_20230523_161325 <- read_table(""~/Bioinformatics/data/GO_classes/GO_term_summary_20230523_161325.txt"")"
+"2","
+[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────────────────────────[39m
+cols(
+  MGI = [31mcol_character()[39m,
+  `Gene/Marker` = [31mcol_character()[39m,
+  ID = [31mcol_character()[39m,
+  Symbol = [31mcol_character()[39m,
+  Name = [31mcol_character()[39m,
+  Chr = [31mcol_character()[39m,
+  Qualifier = [31mcol_character()[39m,
+  Annotated = [31mcol_character()[39m,
+  Term = [31mcol_character()[39m,
+  Context = [31mcol_character()[39m,
+  Proteoform = [31mcol_character()[39m,
+  Evidence = [31mcol_character()[39m,
+  Inferred = [31mcol_character()[39m,
+  From = [31mcol_character()[39m,
+  `Reference(s)` = [31mcol_character()[39m
+)
+"
+"2","Warning: 158 parsing failures.
+row col   expected     actual                                                                   file
+  1  -- 15 columns 16 columns '~/Bioinformatics/data/GO_classes/GO_term_summary_20230523_161325.txt'
+  2  -- 15 columns 18 columns '~/Bioinformatics/data/GO_classes/GO_term_summary_20230523_161325.txt'
+  3  -- 15 columns 22 columns '~/Bioinformatics/data/GO_classes/GO_term_summary_20230523_161325.txt'
+  4  -- 15 columns 17 columns '~/Bioinformatics/data/GO_classes/GO_term_summary_20230523_161325.txt'
+  5  -- 15 columns 16 columns '~/Bioinformatics/data/GO_classes/GO_term_summary_20230523_161325.txt'
+... ... .......... .......... ......................................................................
+See problems(...) for more details.
+"
+"0","View(GO_term_summary_20230523_161325)"

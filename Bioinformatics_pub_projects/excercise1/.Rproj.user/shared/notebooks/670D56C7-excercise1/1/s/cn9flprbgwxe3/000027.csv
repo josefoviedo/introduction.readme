@@ -1,0 +1,5 @@
+"0","## combined single variable plots in one figure "
+"0",""
+"0","fig1 <- ggarrange(pCT, pCTsd, pAs, pAssd)"
+"0",""
+"0","fig1"

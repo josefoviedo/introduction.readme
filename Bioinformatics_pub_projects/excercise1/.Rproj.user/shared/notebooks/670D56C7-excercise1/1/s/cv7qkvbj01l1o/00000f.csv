@@ -1,0 +1,8 @@
+"0","## for practice I selected only essential variables to reduce df size and assigned to new objects"
+"0",""
+"0","GO_term_summary_pos_reg |>"
+"0","  select(c(2,3,6)) |>"
+"0","  rename"
+"2","Error in rename : 
+  The pipe operator requires a function call as RHS (<input>:3:3)
+"

@@ -1,0 +1,7 @@
+"0","## filter selected genes from DE.modified$Symbol df using GO_term_summary_pos_reg$Symbol variable"
+"0","## use the proper join() to only keep the relative GO genes"
+"0",""
+"0","DE.GO_merged <-"
+"0","  inner_join(DE.mod2, GO_terms_merged, by = ""Symbol"") |>"
+"0","  select(c(1,8:17,19,22))"
+"0",""

@@ -1,0 +1,8 @@
+"0",""
+"0","pAsvsSD <- ggplot(DE.GO_merged_complete,"
+"0","       aes(As.sd, avg_As_count)) +"
+"0","  geom_point(aes(color = Symbol), size = 5) +"
+"0","  scale_color_discrete(name = ""GO Genes"") +"
+"0","  labs(title = ""Treatment Group(As) Average DE Count vs stddev by GO Class Gene"")"
+"0",""
+"0","pAsvsSD"

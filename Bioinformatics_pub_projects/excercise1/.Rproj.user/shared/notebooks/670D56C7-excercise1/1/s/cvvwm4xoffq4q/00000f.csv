@@ -1,0 +1,6 @@
+"0",""
+"0","## Plot AVG read count and STDDEV for As and CT samples for selected set of genes"
+"0",""
+"0","plot()"
+"2","Error in plot.default() : argument ""x"" is missing, with no default
+"

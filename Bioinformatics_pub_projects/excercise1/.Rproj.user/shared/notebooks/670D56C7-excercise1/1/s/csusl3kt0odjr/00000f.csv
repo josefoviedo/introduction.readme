@@ -1,0 +1,4 @@
+"0"," "
+"0","fig2 <- ggarrange(pCTvsSD, pAsvsSD, ncol = 1, nrow = 2)"
+"0",""
+"0","fig2"

@@ -1,0 +1,3 @@
+"0","## combined multi-variable plots in one figure"
+"0",""
+"0","fig2 <- ggarrange(pCTvsSD, pAsvsSD, ncol = 1, nrow = 2)"
