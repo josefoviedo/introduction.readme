@@ -1,7 +1,0 @@
-library(tidyverse)
-library(rmarkdown)
-library(readxl)
-library(prettydoc)
-library(knitr)
-library(openai)
-library(gptstudio)

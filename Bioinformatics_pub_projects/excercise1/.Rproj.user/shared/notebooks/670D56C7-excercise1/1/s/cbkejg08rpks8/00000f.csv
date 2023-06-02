@@ -1,6 +1,0 @@
-"0","## for practice I selected essential variables to reduce df size and changed the"
-"0","## 'external_gene_name variable' to 'Symbol' to match the GO_terms_merged variable"
-"0",""
-"0","DE.mod1 <- SY_DE_As25_vs_Ctrl_Readcounts |>"
-"0","  rename(Symbol = external_gene_name) |>"
-"0","  select(c(3,4,7:19))"

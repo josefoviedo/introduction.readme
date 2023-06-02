@@ -1,5 +1,0 @@
-"0","## combined all my plots in one figure "
-"0",""
-"0","fig1 <- ggarrange(pAs, pAssd, pCT, pCTsd)"
-"0",""
-"0","fig1"

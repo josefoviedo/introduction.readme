@@ -1,7 +1,0 @@
-"0","## merge the GO cellular senescence subcategory data frames"
-"0",""
-"0","GO_terms_merged <- "
-"0","  bind_rows(list(GO_term_summary_pos_reg,"
-"0","                 GO_term_summary_neg_reg,"
-"0","                 GO_term_summary_onco_induced,"
-"0","                 GO_term_summary_stress_induced))"

@@ -1,5 +1,0 @@
-"0","## mutate the DE df for mean and sd"
-"0",""
-"0","DE.mod2 <- DE.mod1 |>"
-"0","  mutate(avg_As_count = (rowSums(DE.mod1[8:11])/4)) |>"
-"0","  mutate(avg_CT_count = (rowSums(DE.mod1[12:15])/4))"
