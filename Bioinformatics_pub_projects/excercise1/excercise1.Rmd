@@ -24,6 +24,8 @@ library(rmarkdown)
 library(readxl)
 library(knitr)
 library(ggpubr)
+library(gt)
+library(gtExtras)
 ```
 
 ## step 1: read data to env
@@ -105,6 +107,14 @@ DE.GO_merged_complete <- DE.GO_merged |>
   select(1, 10:15)
 ```
 
+```{r quick-table}
+## use gt() for a nice quick table
+
+DE.GO_merged_complete |>
+  gt()
+```
+
+
 ## step 5: data visualization
 
 ```{r plot-avg-CT-DEcount}
@@ -151,6 +161,13 @@ pAssd <- ggplot(DE.GO_merged_complete,
   ylim(0, 300)
 ```
 
+```{r fig1-combined-plots}
+## combined single variable plots in one figure 
+
+fig1 <- ggarrange(pCT, pCTsd, pAs, pAssd)
+
+fig1
+```
 
 ```{r plot-avg-count-vs-sd-CT}
 
@@ -163,6 +180,7 @@ pCTvsSD <- ggplot(DE.GO_merged_complete,
   xlim(0, 215)
 ```
 
+
 ```{r plot-avg-count-vs-sd-As}
 
 pAsvsSD <- ggplot(DE.GO_merged_complete,
@@ -172,14 +190,6 @@ pAsvsSD <- ggplot(DE.GO_merged_complete,
   labs(title = "Treatment Group(As)", subtitle = "Average DE Count vs STDDEV by GO Class Gene") +
   ylim(0, 1250) +
   xlim(0, 215)
-```
-
-```{r fig1-combined-plots}
-## combined single variable plots in one figure 
-
-fig1 <- ggarrange(pCT, pCTsd, pAs, pAssd)
-
-fig1
 ```
 
 

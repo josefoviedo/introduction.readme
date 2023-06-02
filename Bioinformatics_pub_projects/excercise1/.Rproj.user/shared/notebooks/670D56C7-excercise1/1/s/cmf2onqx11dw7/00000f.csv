@@ -1,8 +1,0 @@
-"0",""
-"0","pCTvsSD <- ggplot(DE.GO_merged_complete,"
-"0","       aes(CT.sd, avg_CT_count)) +"
-"0","  geom_point(aes(color = Symbol), size = 5) +"
-"0","  scale_color_discrete(name = ""GO Genes"") +"
-"0","  labs(title = ""Control Group(CT)"", subtitle = ""Average DE Count vs STDDEV"") +"
-"0","  ylim(0, 1250) +"
-"0","  xlim(0, 215)"
