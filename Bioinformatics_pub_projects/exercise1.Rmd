@@ -1,11 +1,11 @@
 ---
-title: 'Gene Set Analysis for GO: Cellular Senescence'
+title: 'Gene Set Analysis for GO:0090398 Cellular Senescence'
 author: "Jose F Oviedo"
 date: "`r Sys.Date()`"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 Cellular senescence is a cell aging process stimulated in response to cellular stress, whereby normal cells lose the ability to divide through irreversible cell cycle arrest. 
     
@@ -70,11 +70,11 @@ DE.mod1 <- SY_DE_As25_vs_Ctrl_Readcounts |>
 
 
 ```{r data-manipulation-DE-mod2}
-## mutate the DE df for mean and sd
+## mutate the DE df for mean
 
 DE.mod2 <- DE.mod1 |>
-  mutate(avg_As_count = (rowSums(DE.mod1[8:11])/4)) |>
-  mutate(avg_CT_count = (rowSums(DE.mod1[12:15])/4))
+  mutate(avg_CT_count = (rowSums(DE.mod1[12:15])/4)) |>
+  mutate(avg_As_count = (rowSums(DE.mod1[8:11])/4))
 ```
 
 
@@ -95,15 +95,15 @@ DE.GO_merged <-
 ```{r DE-sd}
 ## sd output is calculated by row for both classes of samples As and CT
 
-As.sd <- apply(DE.GO_merged[c(2:5)], 1, sd)
-
 CT.sd <- apply(DE.GO_merged[c(6:9)], 1, sd)
+
+As.sd <- apply(DE.GO_merged[c(2:5)], 1, sd)
 
 ## now cbind() the array as a column to the DE.GO_merged_complete df
 
 DE.GO_merged_complete <- DE.GO_merged |>
-  cbind(As_sd = As.sd) |>
   cbind(CT_sd = CT.sd) |>
+  cbind(As_sd = As.sd) |>
   select(1, 10:15)
 ```
 
