@@ -1,22 +1,14 @@
-***This repository named 'josefoviedo.github.io' is the main source for all the code and files I want to be public regarding my own personal data analytics portfolio, where I only use open data for my projects and never any private data. It includes things like this README file which is sort of my repository landing page with links to view my personal website, data analysis projects, social media, etc.***
+***This repository named 'josefoviedo.github.io' is the main source for all the code and files I want to be public regarding my own personal data analytics portfolio, where I only use simulated or open data for my projects and never any sort of private/sensative data. It includes things like this README file which is sort of my repository landing page with links to view my personal website, data analysis projects, social media, etc.***
 
 # Hi, I’m *@josefoviedo*
 
-### 💻  Aspiring technical data analyst and data viz enthusiast
+### 💻  Aspiring technical data analyst and bioinformatician
 
 ## A little about me...
 
-**baby_coder <- foundational-learning-to-maybe-code-?(2021_me_v1.0)**
+I’m looking to collaborate or be a sounding board on SL/ML, model tuning, big data processing, data governance, workflow/pipeline development, data mining.
 
-**slightly_older_baby_coder <- skills_coming_along(git, sql, tableau, r, python, md (2023_me_v1.1))**
-
-## Some more about me ...
-
-🌱 I’m currently learning how to continue developing my technical skills with my unique learning style and get over impostor syndrome. I am also working everyday to build up my portfolio of personal projects to showcase my growing computer programming skills alongside my established business administration mindset.
-
-💞️ I’m looking to collaborate or be a sounding board on ... analysis preparation, data governance, data structures, data pipelines, data collection, data vizzes, case study/eda competitions, tackling real-world business tasks using simulated data (fakeR, charlatan, bindata, etc.), Rmd/md code reviews, ai/ml data modeling
-
-👀🔎 Find me (LinkedIn, Personal Website), my personal vizzes (Tableau Public), case study projects in Rmd/md/html_document formats (RPubs, Kaggle), and online data community presence (Twitter, stackoverflow, Google Dev) ... 
+👀🔎 Find me anywhere below to connect... 
 
 
   > [LinkedIn: click here](https://www.linkedin.com/in/jose-oviedo-461278192/)
